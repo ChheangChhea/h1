@@ -4500,7 +4500,9 @@ a {
 #inspection-item table {
 	margin: 10px 0 0;
 }
-
+#inspection-item table {
+	margin: 10px 0 0;
+}
 #inspection-item th {
 	padding: 1px 3px;
 	background: #6C97A2 url("image/bgimg_td_border_asagi.png") no-repeat left top;
@@ -6088,9 +6090,18 @@ tbody td.tokkijiko_ari {
 
 #inspection_call_statusdisplay .main.status_tested tbody th {
 	background-color: #4397ab;
-	border-color: #d7edfc;
+	border-color: #01111b;
 	border-bottom-color: #fff;
 }
+
+
+#inspection_call_statusdisplay .main.status_tested tbody th {
+	background-color: #38646ed7 !important;
+	border-color: #92a9ad;
+	/* border-bottom-color: rgba(255, 255, 255, 0.781); */
+	
+}
+
 
 #inspection_call_statusdisplay .main.status_tested tbody td {
 	background-color: #d7edfc;
@@ -7718,7 +7729,7 @@ div.button.type2 {
 div.button.type2 span {
 	min-width: 80px;
 	height: 30px;
-	line-height: 33px;
+	line-height: 30px;
 	font-size: 14px;
 }
 
@@ -9118,4 +9129,3 @@ a img:hover{
 	display: flex;
 	justify-content: center;
 }
-

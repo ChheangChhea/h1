@@ -268,6 +268,23 @@
                               v-model="this.form.total_amount" />
                           </td>
                         </tr>
+
+
+
+                        <tr>
+                          <th>
+                            <font style="vertical-align: inherit; color: #f8f5b4">Total Amount</font>
+                          </th>
+                          <td>
+                            <input :disabled="true" style="vertical-align: inherit; background: none;border: none; "
+                              v-model="this.form.total_amount" />
+                          </td>
+                        </tr>
+
+
+
+
+
                       </tbody>
                     </table>
                   </div>
