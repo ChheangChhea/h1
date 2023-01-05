@@ -172,7 +172,7 @@
                   <th width="10%">Suppliyer</th>
                   <td width="50%">
                     <select :disabled="isDisabled" @change="autoUpdateProduct(form)" v-model="form.suppliyer_code"
-                      class="form"   style="width: 385px" > 
+                      class="form"   style="width: 380px" > 
                       
                       <option value="">Selete Suppliyer</option>
                       <option v-for="suppliye in suppliyer" :value="suppliye.sup_code" :key="suppliye.id">
@@ -328,10 +328,10 @@
             </table>
           </div>
           <div class="box-footer-pagination">
-            <div class="pagination" style="padding: 10px; width: 100%">
+            <div class="pagination" style="padding: 5px; width: 100%">
               <div class="button type2" id="uniform-undefined" v-show="btnGenerate" @click="myFunction()"
                 style="float: left">
-                <span style="width: 150px"><input type="button" class="type2" tabindex="10025" value="display"
+                <span style="width: 145px"><input type="button" class="type2" tabindex="10025" value="display"
                     style="opacity: 0; width: 54px" /><i class="fas fa-plus"></i> Generate Code</span>
               </div>
               <div style="width: 30%; float: right; background: none; color: #f8f5b4; ">
@@ -345,7 +345,7 @@
                       <tbody>
                         <tr>
                           <th>
-                            <font style="vertical-align: inherit; color: #f8f5b4">Product</font>
+                            <font style="vertical-align: inherit; color: #f8f5b4"  class="pro">Product</font>
                           </th>
                           <td>
                             <input :disabled="true" style="vertical-align: inherit; background: none;  border: none;  "
@@ -370,6 +370,15 @@
                               v-model="total" />
                           </td>
                         </tr>
+                        <tr>
+                            <th>
+                               <font style="vertical-align: inherit; color:#f8f5b4"> Total Amount</font>
+                              </th>
+                            <td>
+                            <input :disabled="true" style=" vertical-align: inherit;  background: none; border: none; "
+                              v-model="item" />
+                              </td>
+                          </tr>
                       </tbody>
                     </table>
                   </div>

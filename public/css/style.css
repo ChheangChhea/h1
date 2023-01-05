@@ -7729,7 +7729,11 @@ div.button.type2 {
 div.button.type2 span {
 	min-width: 80px;
 	height: 30px;
+<<<<<<< HEAD
 	line-height: 30px;
+=======
+	line-height: 29px;
+>>>>>>> 60cfa78c9f075ac159b19907197bc9e2ccaf21c9
 	font-size: 14px;
 }
 

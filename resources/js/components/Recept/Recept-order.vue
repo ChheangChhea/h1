@@ -104,21 +104,21 @@
                   <th width="20%">Document Number</th>
                   <td width="80%">
                     <input :disabled="true" @change="autoUpdateProduct(form)" v-model="form.document_no"
-                      class="string_zen_kana clear_text text input_text" maxlength="50" size="50" type="text" />
+                      class="string_zen_kana clear_text text input_text" style="width: 385px" type="text" />
                   </td>
                 </tr>
                 <tr>
                   <th width="20%">Document Type</th>
                   <td width="80%">
                     <input :disabled="isDisabled" @change="autoUpdateProduct(form)" v-model="form.document_type"
-                      class="string_zen_kana clear_text text input_text" maxlength="50" size="50" type="text" />
+                      class="string_zen_kana clear_text text input_text" style="width: 385px" type="text" />
                   </td>
                 </tr>
                 <tr>
                   <th width="20%">Description</th>
                   <td width="80%">
                     <input :disabled="isDisabled" @change="autoUpdateProduct(form)" v-model="form.description"
-                      class="string_zen clear_text text input_text" size="50" type="text" />
+                      class="string_zen clear_text text input_text" style="width: 385px" type="text" />
                   </td>
                 </tr>
                 <tr>
@@ -138,7 +138,7 @@
                   <th width="20%">Curency Code</th>
                   <td width="80%">
                     <input :disabled="isDisabled" @change="autoUpdateProduct(form)" v-model="form.curency_code"
-                      class="string_zen clear_text text input_text" size="50" type="text" />
+                      class="string_zen clear_text text input_text" style="width: 385px" type="text" />
                   </td>
                 </tr>
               
@@ -301,7 +301,7 @@
       <div class="modal-content ui-dialog">
          <div class="ui-widget-header">
           <h5 class="modal-title" id="staticBackdropLabel">Boom Products : {{ form.product_no }} , {{ form.description }} </h5>
-          <input :disabled="isDisabled" @change="autoUpdateProduct(form)" v-model="form.description" class="string_zen clear_text text input_text" size="50" type="text">
+          <input :disabled="isDisabled" @change="autoUpdateProduct(form)" v-model="form.description" class="string_zen clear_text text input_text" style="width:385px" type="text">
         </div>
         <div class="box-content">
           <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tbl_list tbl_stripe">

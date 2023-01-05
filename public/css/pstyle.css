@@ -279,3 +279,13 @@ div.button span {
 
 /* 
 #excellrow tr:nth-child(even) {background-color: #ff0000;} */
+
+/*==================*/
+
+#inspection_call_statusdisplay .main.status_tested tbody th
+{
+    background-color:#326c7a!important;
+    border-color:#5d9fc5!important;
+}
+
+
